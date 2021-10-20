@@ -1,0 +1,133 @@
+
+            body
+            {
+                background-color: darkorange; 
+                height:90vh; 
+                overflow-y: hidden;
+            }
+            textarea.form-control
+            {
+                height: 320px;
+            }
+            .div1
+            {
+                margin-top: 35px; 
+                background-color: white; 
+                display:flex; 
+                font-weight: bold; 
+                flex-direction: column; 
+                height: 508px;
+            }
+            .div_card
+            {
+                margin: 5%; 
+                height: 25%; 
+                width: 90%;
+            }
+            .inside_div
+            {
+                width:15%;
+                padding-top: 5px;
+            }
+            .div_2
+            {
+                height: 508px;
+            }
+            .text_area
+            {
+                margin-top: 20px; 
+                margin-bottom: 20px ; 
+            }
+            .input_
+            {
+                margin-left: 2px;
+            }
+            .pad_only
+            {
+                padding: 10px;
+            }
+            .btn__
+            {
+                margin-top: 20px; 
+                width: 100%;
+            }
+            .pad_2
+            {
+                padding-top: 25px;
+            }
+            @media (max-width : 700px)
+            {
+                body
+                {
+                    overflow-y:scroll ;
+                }
+                .div1
+                {
+                    height: 1035px;
+                    margin-top: 15px;
+                }
+
+                .div_2
+                {
+                    height: auto;
+                }
+
+                .div_card
+                {
+                    height: 130px;
+
+                }
+                textarea.form-control
+                {
+                    height: 100px;
+                }
+            }
+            /* @media (max-width : 768px)
+            {
+                .div1{
+                    height: 580px;
+                }
+                .div_2
+                {
+                    height: 580px;
+                }
+
+                .flex_
+                {
+                    flex-direction: column;
+
+                }
+
+                .input_{
+                    margin-left: -1px;
+                }
+
+                .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+                    width: 100%;
+                }
+
+
+                .inside_div
+                {
+                    width: 35%;
+                    padding-top: 2px;
+                }
+
+                .pad_2{
+                    padding-top: 35px;
+                }
+
+                .margin_{
+                    margin-top: 3px;
+                }
+
+                .div_card
+                {
+                    width: 95%;
+                }
+                textarea.form-control
+                {
+                    height: 370px;
+                }
+            } */
+    
